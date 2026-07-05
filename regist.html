@@ -1,32 +1,8 @@
-<<<<<<< HEAD
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ladies Shoppy Registration</title>
-<link rel="stylesheet" href="styles.css">
-</head>
-<body>
-<div class="container">
-<h2>Register for Ladies Shoppy</h2>
-<form action="#" method="POST">
-<label for="username">Username:</label>
-<input type="text" id="username" name="username" required>
-<label for="contact">Contact Number:</label>
-<input type="tel" id="contact" name="contact" pattern="[0-9]{10}" required>
-<button type="submit">Register</button>
-</form>
-</div>
-</body>
-</html> -->
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ladies Shoppy - Registration</title>
     <link rel="stylesheet" href="styles.css">
@@ -35,94 +11,27 @@
 <body>
     <div class="container">
         <h1>Registration Form</h1>
-        <form id="registrationForm" action="#" method="POST">
+
+        <form id="registrationForm">
             <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required>
+            <input type="text" id="username" required>
 
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+            <input type="email" id="email" required>
 
             <label for="phone">Contact Number:</label>
-            <input type="tel" id="phone" name="phone" required>
+            <input type="tel" id="phone" required>
 
             <input type="submit" value="Register">
         </form>
     </div>
 
     <script>
-        document.getElementById('registrationForm').addEventListener('submit', function (event) {
-            event.preventDefault(); // Prevent the form from submitting
-
-            // You can perform form validation here if needed
-
-            // Redirect to the ladies' shopping website
-            window.location.href = 'file:///C:/Users/Payal/Desktop/payal00/payal/index.html#'; // Replace with your actual website URL
+        document.getElementById("registrationForm").addEventListener("submit", function (event) {
+            event.preventDefault();
+            window.location.href = "index.html";
         });
     </script>
 </body>
 
-=======
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ladies Shoppy Registration</title>
-<link rel="stylesheet" href="styles.css">
-</head>
-<body>
-<div class="container">
-<h2>Register for Ladies Shoppy</h2>
-<form action="#" method="POST">
-<label for="username">Username:</label>
-<input type="text" id="username" name="username" required>
-<label for="contact">Contact Number:</label>
-<input type="tel" id="contact" name="contact" pattern="[0-9]{10}" required>
-<button type="submit">Register</button>
-</form>
-</div>
-</body>
-</html> -->
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ladies Shoppy - Registration</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-    <div class="container">
-        <h1>Registration Form</h1>
-        <form id="registrationForm" action="#" method="POST">
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="phone">Contact Number:</label>
-            <input type="tel" id="phone" name="phone" required>
-
-            <input type="submit" value="Register">
-        </form>
-    </div>
-
-    <script>
-        document.getElementById('registrationForm').addEventListener('submit', function (event) {
-            event.preventDefault(); // Prevent the form from submitting
-
-            // You can perform form validation here if needed
-
-            // Redirect to the ladies' shopping website
-            window.location.href = window.location.href = 'index.html';; // Replace with your actual website URL
-        });
-    </script>
-</body>
-
->>>>>>> 2b8d407 (Initial portfolio upload)
 </html>

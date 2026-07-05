@@ -1,110 +1,59 @@
-<<<<<<< HEAD
+/* Registration Page */
+
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    background-color: #f8f8f8;
-    background-image: url(cosmatic);
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ffb6c1, #ffe4ec);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 .container {
-    max-width: 400px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 420px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
 
 h1 {
     text-align: center;
     color: #333;
-}
-
-form {
-    margin-top: 20px;
+    margin-bottom: 25px;
 }
 
 label {
     display: block;
-    margin-bottom: 5px;
-    color: #333;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: bold;
 }
 
 input[type="text"],
 input[type="email"],
-input[type="tel"],
-input[type="submit"] {
+input[type="tel"] {
     width: 100%;
     padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
     border: 1px solid #ccc;
-}
-
-input[type="submit"] {
-    background-color: #ff69b4;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-}
-
-input[type="submit"]:hover {
-    background-color: #d1508f;
-=======
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    border-radius: 5px;
     box-sizing: border-box;
-    background-color: #f8f8f8;
-    background-image: url(cosmatic);
 }
 
-.container {
-    max-width: 400px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
-    text-align: center;
-    color: #333;
-}
-
-form {
-    margin-top: 20px;
-}
-
-label {
-    display: block;
-    margin-bottom: 5px;
-    color: #333;
-}
-
-input[type="text"],
-input[type="email"],
-input[type="tel"],
 input[type="submit"] {
     width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-}
-
-input[type="submit"] {
-    background-color: #ff69b4;
-    color: #fff;
+    margin-top: 20px;
+    padding: 12px;
+    background: #ff4fa3;
+    color: white;
     border: none;
+    border-radius: 5px;
+    font-size: 16px;
     cursor: pointer;
 }
 
 input[type="submit"]:hover {
-    background-color: #d1508f;
->>>>>>> 2b8d407 (Initial portfolio upload)
+    background: #e63b8d;
 }
